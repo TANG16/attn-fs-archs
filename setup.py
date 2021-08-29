@@ -7,7 +7,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
      name='ndsl-attn-fs-archs',  
-     version='0.0.1',
+     version='0.0.2',
      author="Under ML",
      author_email="urielcoro@gmail.com",
      description="Architectures involved in the investigation of Attention Mechanisms as Feature Selection",
@@ -17,8 +17,9 @@ setuptools.setup(
      package_dir={"": "src"},
      packages=setuptools.find_packages(where="src"),
      classifiers=[
-         "Programming Language :: Python :: 3",
-         "License :: OSI Approved :: MIT License",
-         "Operating System :: OS Independent",
+         "Topic :: Scientific/Engineering :: Artificial Intelligence",
+         "Development Status :: 4 - Beta" ,
+         "License :: Other/Proprietary License",
+         "Programming Language :: Python :: 3"
      ],
  )
