@@ -4,7 +4,7 @@ This repository contains the developed architectures in the research of attentio
 
 Currently, not all architectures are available. This packages will be updated in the future (I hope that).
 
-The code here is developed as a python package, pitifully it is not available in PyPi yet :disappointed:. Anyway, a magic makefile is included (for your comfort :wink:), and some specifications are included below.
+The code here is developed as a python package. Anyway, a magic makefile is included (for your comfort :wink:), and some specifications are included below.
 
 
 ## Installing from PyPi
