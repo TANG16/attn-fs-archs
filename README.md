@@ -7,7 +7,17 @@ Currently, not all architectures are available. This packages will be updated in
 The code here is developed as a python package, pitifully it is not available in PyPi yet :disappointed:. Anyway, a magic makefile is included (for your comfort :wink:), and some specifications are included below.
 
 
-## Building the package
+## Installing from PyPi
+
+By running the next line you will install it from PyPi repo:
+
+```
+pip install ndsl-attn-fs-archs 
+```
+
+## Installing from source
+
+### Building the package
 
 To build the package you just need to run:
 
@@ -21,7 +31,7 @@ or:
 make build
 ```
 
-## Installing the package
+### Installing the package
 
 To install the package just execute:
 
@@ -34,7 +44,7 @@ make install
 To run the included tests just execute
 
 ```
-make run_tests
+make test
 ```
 
 If you want to add more tests don't forget to add them in the makefile.
